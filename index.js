@@ -4,7 +4,7 @@ const $eplusList = document.querySelector('.eplusList');
 
 function listDevs(list){
     eplusDevList.forEach(function(dev){
-        const itemDev = document.createElement('div');
+        const itemDev = document.createElement('li');
         itemDev.innerText = dev;
         console.log(itemDev);
     });
